@@ -147,4 +147,4 @@ SELECT * FROM employee INNER JOIN trainee ON employee.id = trainee.id JOIN skill
 
 
 
- SELECT distinct skills.trainee_id FROM employee INNER JOIN trainee ON employee.id = trainee.id JOIN skills on skills.trainee_id = trainee.trainee_id;
+ SELECT distinct skills.trainee_id FROM employee INNER JOIN trainee ON employee.id = trainee.id JOIN skills on skills.trainee_  id = trainee.trainee_id;
