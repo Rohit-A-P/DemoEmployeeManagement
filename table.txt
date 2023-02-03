@@ -12,7 +12,7 @@ CREATE TABLE TRAINER  (
    DATE_OF_JOINING  DATE NULL,
    TRAINING_SINCE  YEAR(4) NULL,
    PRIMARY KEY ( id ));
-hello22
+
 CREATE TABLE TRAINEE  (
    ID  VARCHAR(25) NOT NULL,
    NAME  VARCHAR(45) NOT NULL,
@@ -143,7 +143,7 @@ commit;
 =================================================================================================================
 
 
-SELECT * FROM employee INNER JOIN trainee ON employee.id = trainee.id JOIN skills on skills.trainee_id = trainee.trainee_id;
+SELECT * FROM employee INNER JOIN trainee ON employee.id = trainee.id JOIN skills on skills.  trainee_id = trainee.trainee_id;
 
 
 
